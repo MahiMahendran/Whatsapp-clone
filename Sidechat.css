@@ -1,0 +1,21 @@
+.sidechat{
+    display: flex;
+    padding: 0 10px;
+    flex: 0.35;
+    cursor: pointer;
+    align-items: center;
+}
+.sidechat_info{
+    margin-bottom: 8px;
+    border-bottom: 1px solid #fdfdfd;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.sidechat:hover{
+background-color: #fdfdfd;
+color: rgb(29, 27, 27) ;
+}
+.sidechat_link{
+    color: rgb(29, 27, 27);
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.login{
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.login_container{
+    background-color: white;
+    text-align: center;
+    padding: 80px;
+}
+.login_container >img {
+    object-fit: contain;    
+}
+.login_btn{
+    color: white;
+}
+.login_btn:hover{
+    background-color: rgb(15, 156, 58);
+    color: white;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+}
